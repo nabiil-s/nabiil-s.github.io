@@ -1,7 +1,7 @@
 /* ----------------------------- Universal/Skeleton ------------------------------ */
 
 *{
-    margin: 0;
+    margin: 0px;
 }
 
 body{
@@ -142,6 +142,24 @@ h1, .job-title{
 .title{
   font-size: 1.9rem;
   color: #bc74cd;
+}
+
+span.-seperator {
+    color: #8394b3;
+}
+
+span.aspiring-role {
+    color: #adade2;
+}
+
+p.software-dev{
+    display: none;
+    color: #daa7db;
+    padding-top: 75px;
+    font-size: 21px;
+    letter-spacing: 7px;
+    padding: 5px;
+    background-color: #163f881a;
 }
 
 .btn{
@@ -429,7 +447,7 @@ footer {
 
 }
 
-@media (max-width: 731px){
+@media (max-width: 930px){
 
             /* ----- Banner/Main ----- */
 
@@ -445,8 +463,12 @@ footer {
     font-size: 3.5rem;
   }
 
+  p.software-dev{
+    margin-top:30px;
+    display: inherit;
+  }
+
   .btn{
-    flex-direction: column;
     padding-top: 10%;
   }
 
@@ -496,8 +518,3 @@ footer {
     padding: 60px 15px 50px
   }
 }
-
-
-
-
-
