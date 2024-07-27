@@ -134,8 +134,11 @@ h1, .job-title{
   color: #b794a8;
 }
 
+h1.h1-fullScreen{
+  font-size: 3.15rem;
+}
+
 .name{
-  font-size: 3.2rem;
   color: #93bebc;
 }
 
@@ -517,4 +520,34 @@ footer {
   #education{
     padding: 60px 15px 50px
   }
+}
+
+@media (max-width:510px){
+  main{
+    padding-top: 27%;
+  }
+
+  .job-title{
+    font-size: 1.53rem;
+  }
+
+  .title{
+    font-size: 1.7rem;
+  }
+
+  .name{
+    font-size: 3.1rem;
+  }
+
+  h1.mobile-first{
+    font-size: 2.7rem; 
+  }
+
+  p.software-dev{
+    border-top: 1px solid #8cc4d72b;
+    border-bottom: 1px solid #8cc4d72b;
+    font-size:19px;
+    letter-spacing: 3px;
+  }
+
 }
