@@ -550,4 +550,7 @@ footer {
     letter-spacing: 3px;
   }
 
+  a.btn-style {
+    font-size: 1.25rem;
+  }
 }
