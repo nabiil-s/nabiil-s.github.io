@@ -284,11 +284,6 @@ p.software-dev{
   text-transform: uppercase;
 }
 
-.project-title:hover {
-    color: #040404;
-    text-decoration: underline;
-}
-
 .project-tech-used{
   color: grey;
   padding-bottom: 25px;
@@ -383,6 +378,15 @@ footer {
   border-top: 3px solid #639bae;
 }
 
+.portfolioLink-footer{
+  color: #6ce3cb;
+  text-decoration: underline;
+}
+
+.portfolioLink-footer:hover{
+  color: whitesmoke;
+  text-decoration: none;
+}
 
 
 /* -------------------------------------------------------------------------------- */
