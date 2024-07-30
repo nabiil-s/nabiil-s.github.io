@@ -28,7 +28,7 @@ This repository highlights my abilities in deploying front-end applications and 
 
 ## 📚 How to Use This Repository
 
-1. **Explore the Projects:** Browse through the deployed project to see my front-end deployed site. For a full user experience and demo of my created projects, please visit [nabiil-s@infinityfreeapp.com](http://nabiil-s.infinityfreeapp.com).
+1. **Explore the Projects:** Browse through the deployed project to see my front-end deployed site. For a full user experience and demo of my created projects, please visit: [nabiil-s@infinityfreeapp.com](http://nabiil-s.infinityfreeapp.com).
 
 2. **Review Version Control Practices:** Check out the commit history and branch structure to understand how I manage version control and handle conflicts.
 
