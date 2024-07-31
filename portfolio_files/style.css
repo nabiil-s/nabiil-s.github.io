@@ -166,8 +166,6 @@ p.software-dev{
 }
 
 .btn{
-  display: flex;
-  gap: 10%;
   padding-top: 5%;
   font-size: 1.3rem;
   letter-spacing: 2px;
@@ -175,12 +173,16 @@ p.software-dev{
   text-align: center;
 }
 
-.btn-style{
-  color: #9ca3a7;
+.btn-style, .btn-style-mobile{
+  color: #d87dcf;
   padding: 12px 36px;
   margin: 10px 0;
-  border: 2px solid #707db2c9;
-  border-radius:40px;
+  border: 2px solid #72d8b3c9;
+  border-radius:10px;
+}
+
+.btn-style-mobile{
+  display: none;
 }
 
 .btn-style:hover{
@@ -224,7 +226,7 @@ p.software-dev{
   grid-area: intro;
   letter-spacing: 2.5px;
   font-size: 1.1rem;
-  border-top: 5px solid #43304c;
+  border-top: 5px solid #7b59b1;
   gap: 20px;
 
 } 
