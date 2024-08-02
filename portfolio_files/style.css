@@ -90,11 +90,12 @@ nav ul{
 a{
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  color: #cbe4d7;
+  color: #b0c6e9;
+  letter-spacing: .3px;
 }
 
 a:hover{
-  color: #84eba9;
+  color: #e39be5;
 }
 
 a:active {
