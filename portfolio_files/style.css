@@ -227,9 +227,9 @@ p.software-dev{
 }
 
 .profile{
-  border: 1px solid #8295b4;
+  border: 2px solid #b1ee90;
   padding: 10px 15px;
-  color: #c0b4d4;
+  color: #d3bed3;
 }
 
 .profile-mobileFirst{
@@ -318,8 +318,6 @@ p.software-dev{
     text-align: center;
     border-radius: 8px;
     margin: 3px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 2px 4px #0003;
     cursor: default;
 }
 
