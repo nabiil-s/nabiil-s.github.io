@@ -330,6 +330,12 @@ p.software-dev{
   color: #e692d2;
 }
 
+.items:hover {
+    border: 2.2px outset #7e51f0;
+    color: #85d98c;
+    background-color: #ffffff0f;
+}
+
 
 /* --------------------------------- Education ----------------------------------- */
 
@@ -338,6 +344,10 @@ p.software-dev{
   padding: 60px 30px 50px;
 
 } 
+
+.collegeName{
+  color: #aad3aced;
+}
 
 .education-card{
   display:flex;
@@ -348,18 +358,17 @@ p.software-dev{
 }
 
 .institutes{
+    border: 3px solid #cf7878;;
     width: 80%;
     padding: 25px 20px;
     border-radius: 2px;
     margin: 8px;
     text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 2px 4px #0003;
     cursor: default;
 }
 
 .college-results{
-  color: slategrey;
+  color: #c0deff;
   margin-top:5px;
 }
 
@@ -373,6 +382,7 @@ footer {
   color: #eaf3e8;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-top: 3px solid #639bae;
 }
 
