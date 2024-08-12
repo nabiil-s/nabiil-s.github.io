@@ -50,9 +50,8 @@ p{
 }
 
 .projects, .items, .institutes{
-  border: 2.2px solid #5a7591;
+/*  border: 2.2px solid #5a7591;*/
   color: #da8ed7;
-  font-size: 16.5px;
 }
 
 .projects, .institutes{
@@ -266,6 +265,10 @@ p.software-dev{
 
 }
 
+.projects:hover{
+  border: 3px outset #8f65d9;
+}
+
 .project-title{
   padding-bottom: 7px;
   padding-right: 7px;
@@ -313,12 +316,18 @@ p.software-dev{
 }
 
 .items{
+    color:#56f0f3;;
+    border: 2.2px solid #9ca96f;
     width: 100px;
     padding: 10px;
     text-align: center;
     border-radius: 8px;
     margin: 3px;
     cursor: default;
+}
+.items:nth-child(2n){
+  border: 2.2px solid #5f94ef;
+  color: #e692d2;
 }
 
 
