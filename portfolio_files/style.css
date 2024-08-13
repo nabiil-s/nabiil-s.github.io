@@ -291,6 +291,10 @@ p.software-dev{
   border: 3.7px solid #d0d87f;
 }
 
+.project-img:hover {
+    border: 3.7px double #96acd4;
+}
+
 .project-info-1200w, .project-info-730w{
   display:none;
 }
@@ -365,6 +369,11 @@ p.software-dev{
     margin: 8px;
     text-align: center;
     cursor: default;
+}
+
+.institutes:hover {
+    border: 3px solid #d088b8;
+    background-color: #1d56650d;
 }
 
 .college-results{
