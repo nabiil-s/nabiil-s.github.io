@@ -410,6 +410,10 @@ footer {
   text-decoration: none;
 }
 
+.mobileFirstFooter{
+  display: none;
+}
+
 
 /* -------------------------------------------------------------------------------- */
 /* --------------------------------- Media Query ---------------------------------- */
@@ -464,6 +468,17 @@ footer {
   .profile-mobileFirst{
     display: initial;
   }
+}
+
+@media (max-width: 900px){
+  .mainfooter{
+    display: none;
+  }
+
+  .mobileFirstFooter{
+    display: initial;
+  }
+
 }
 
 @media (max-width: 880px){
