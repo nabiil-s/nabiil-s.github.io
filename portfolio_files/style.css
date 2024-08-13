@@ -231,6 +231,11 @@ p.software-dev{
   color: #d3bed3;
 }
 
+.profile:hover {
+    border: 2px outset #a45ad7;
+    color: #9de2d6;
+}
+
 .profile-mobileFirst{
   display: none;
 }
