@@ -76,6 +76,10 @@ nav ul{
   padding: 0.6% 0.6%;
 }
 
+nav li{
+  margin-left:0;
+}
+
 a{
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -595,6 +599,10 @@ footer {
 }
 
 @media (max-width:440px){
+
+  .homeNav{
+    display:none;
+  }
 
   .btn-style-mobile{
     padding: 10px 20px;
