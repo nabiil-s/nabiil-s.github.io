@@ -29,6 +29,7 @@ body{
   font-weight: normal;
   text-transform: uppercase;
   color: #b7eaf5;
+  cursor:default;
 }
 
 p, h4{
