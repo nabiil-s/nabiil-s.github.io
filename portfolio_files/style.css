@@ -103,6 +103,7 @@ main {
   flex-direction: column;
   background-image: linear-gradient(to bottom, #0e3552, #0c1d36, #070720, #06051e);
   padding-bottom: 5%;
+  cursor: default;
 }
 
 .mobile-first{
@@ -229,6 +230,7 @@ p.software-dev{
   border: 2px solid #b1ee90;
   padding: 10px 15px;
   color: #d3bed3;
+  cursor: default;
 }
 
 .profile:hover {
@@ -398,6 +400,7 @@ footer {
   align-items: center;
   text-align: center;
   border-top: 3px solid #639bae;
+  cursor: default;
 }
 
 .portfolioLink-footer{
