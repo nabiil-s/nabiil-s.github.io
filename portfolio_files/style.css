@@ -232,6 +232,8 @@ p.software-dev{
   padding: 10px 15px;
   color: #d3bed3;
   cursor: default;
+  transition-property: border;
+  transition-duration: 1.8s;
 }
 
 .profile:hover {
@@ -270,6 +272,8 @@ p.software-dev{
     text-align: left;
     cursor: default;
     margin-bottom: 10px;
+    transition-property: border;
+    transition-duration: 1.4s;
 
 }
 
@@ -336,7 +340,10 @@ p.software-dev{
     border-radius: 8px;
     margin: 3px;
     cursor: default;
+    transition-property: border, color;
+    transition-duration: 1.8s, 0.7s;
 }
+
 .items:nth-child(2n){
   border: 2.2px solid #5f94ef;
   color: #e692d2;
@@ -377,6 +384,8 @@ p.software-dev{
     margin: 8px;
     text-align: center;
     cursor: default;
+    transition-property: border;
+    transition-duration: 1.5s;
 }
 
 .institutes:hover {
