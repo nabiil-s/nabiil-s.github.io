@@ -124,10 +124,28 @@ h1, .job-title{
 .job-title{
   font-size: 1.7rem;
   color: #b794a8;
+  position:relative;
+  animation: jobDesc;
+  animation-duration: 2.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes jobDesc{
+  0% {left:-1700px;}
+  100% {left: 0px;}
 }
 
 h1.h1-fullScreen{
   font-size: 3.15rem;
+  position: relative;
+  animation: mainIntro;
+  animation-duration: 2.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mainIntro{
+  0% {top: -500px;}
+  100% {top: 0px;}
 }
 
 .name{
