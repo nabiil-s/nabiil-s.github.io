@@ -199,7 +199,7 @@ p.software-dev{
 }
 
 .jump {
-  animation: jump 1s infinite alternate;
+  animation: jump 1s infinite alternate, fadeIn 2.7s forwards;
 }
 
 @keyframes jump {
@@ -207,6 +207,10 @@ p.software-dev{
   100% { transform: translateY(-10px); }
 }
 
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
 /* -------------------------------- Introduction --------------------------------- */
 
 #intro {
