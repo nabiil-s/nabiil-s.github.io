@@ -57,7 +57,6 @@ nav ul, .btn-style{
   100% {opacity: 1;}
 }
 
-
 /*This covers the area intro to skills*/
 #intro, #portfolio, #skills, #education{
   text-align: center;
@@ -536,6 +535,14 @@ footer {
 @media (max-width: 930px){
 
             /* ----- Banner/Main ----- */
+
+  nav ul, .mobile-first{
+    animation: none;
+  }
+
+  nav ul{
+    opacity: 1;
+  }
 
   .mobile-first, .btn-style-mobile{
     display: initial;
