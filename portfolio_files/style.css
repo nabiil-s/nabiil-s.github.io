@@ -44,6 +44,19 @@ p{
   font-size: 1.1rem;
 }
 
+nav ul, .btn-style{
+  animation: links;
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards;
+} 
+
+@keyframes links{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 
 /*This covers the area intro to skills*/
 #intro, #portfolio, #skills, #education{
