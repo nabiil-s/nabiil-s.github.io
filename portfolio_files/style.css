@@ -177,7 +177,7 @@ span.aspiring-role {
     color: #adade2;
 }
 
-p.software-dev{
+p.web-dev{
     display: none;
     color: #daa7db;
     padding-top: 75px;
@@ -500,6 +500,25 @@ footer {
     margin-top: 7px;
   }
 
+  .aspiring-role, .-seperator{
+    display: none;
+  }
+
+  p.web-dev{
+    margin-top:30px;
+    display: inherit;
+    opacity:0;
+    animation: webRoles;
+    animation-duration: 3s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes webRoles{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
 }
 
 @media (max-width: 1000px){
@@ -554,11 +573,6 @@ footer {
 
   .name{
     font-size: 3.5rem;
-  }
-
-  p.software-dev{
-    margin-top:30px;
-    display: inherit;
   }
 
   .btn{
@@ -633,7 +647,7 @@ footer {
     font-size: 2.7rem; 
   }
 
-  p.software-dev{
+  p.web-dev{
     border-top: 1px solid #8cc4d72b;
     border-bottom: 1px solid #8cc4d72b;
     font-size:19px;
