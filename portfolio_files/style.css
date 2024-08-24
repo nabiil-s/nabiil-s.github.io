@@ -507,19 +507,8 @@ footer {
   p.web-dev{
     margin-top:30px;
     display: inherit;
-    opacity:0;
-    animation: webRoles;
-    animation-duration: 3s;
-    animation-delay: 2.7s;
-    animation-fill-mode: forwards;
-} 
 
-@keyframes webRoles{
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-}
+  }
 
 @media (max-width: 1000px){
 
