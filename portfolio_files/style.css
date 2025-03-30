@@ -530,28 +530,9 @@ footer {
   }
 }
 
-@media (max-width: 900px){
-  .mainfooter{
-    display: none;
-  }
-
-  .mobileFirstFooter{
-    display: initial;
-  }
-
-}
-
-@media (max-width: 880px){
-
-  #skills{
-    padding: 40px 80px 30px;
-  }
-
-}
-
 @media (max-width: 930px){
 
-            /* ----- Banner/Main ----- */
+              /* ----- Banner/Main ----- */
 
   nav ul, .mobile-first{
     animation: none;
@@ -577,8 +558,6 @@ footer {
     padding-top: 10%;
   }
 
-            /* ----- Banner/Main ----- */
-
   .project-info-1200w, .project-info-quiz{
     display: none;
   }
@@ -596,14 +575,42 @@ footer {
     display: initial;
   }
 
+  /* ----- Projects ----- */
+
   li{
     margin-left:13px;
     padding: 5px 0px 10px;
     font-size: 20px;
   }
 
+  .project-tech-used {
+    padding-bottom: 15px;
+  }
+}
 
-} /* Media Query Ends */
+@media (max-width: 900px){
+
+  .project-tech-used {
+    padding-bottom: 15px;
+  }
+
+  .mainfooter{
+    display: none;
+  }
+
+  .mobileFirstFooter{
+    display: initial;
+  }
+
+}
+
+@media (max-width: 880px){
+
+  #skills{
+    padding: 40px 80px 30px;
+  }
+
+}
 
 @media (max-width: 690px){
 
