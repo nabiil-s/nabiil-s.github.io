@@ -64,7 +64,7 @@ nav ul, .btn-style{
 }
 
 .projects, .institutes{
-  color: #da8ed7;
+  color: #b4c7d9;
 }
 
 /* --------------------------------- Navigation -------------------------------------- */
@@ -268,17 +268,12 @@ p.web-dev{
 } 
 
 .profile{
-  border: 2px solid #b1ee90;
+  border: 2px solid #527cac;
   padding: 10px 15px;
-  color: #d3bed3;
+  color: #b5c7d9;
   cursor: default;
   transition-property: border;
   transition-duration: 1.8s;
-}
-
-.profile:hover {
-    border: 2px outset #a45ad7;
-    color: #9de2d6;
 }
 
 .profile-mobileFirst{
@@ -302,7 +297,7 @@ p.web-dev{
 }
 
 .projects{
-    border:3px solid #29a07b;
+    border:3px solid #17694f;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -317,21 +312,17 @@ p.web-dev{
 
 }
 
-.projects:hover{
-  border: 3px outset #8f65d9;
-}
-
 .project-title{
   padding-bottom: 7px;
   padding-right: 7px;
-  color: #d4eda6f7;
+  color: #bfcba8f7;
   font-size: 17.8px;
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
 
 .project-tech-used{
-  color: #c1d3e0;
+  color: #babcf1;
   padding-bottom: 25px;
   text-align: initial;
   margin-top: 7px;
@@ -340,11 +331,7 @@ p.web-dev{
 .project-img{
   width:270px;
   margin-right: 12px;
-  border: 3.7px solid #d0d87f;
-}
-
-.project-img:hover {
-    border: 3.7px double #96acd4;
+  border: 3.7px solid #81892d;
 }
 
 .project-info-1200w, .project-info-730w{
@@ -426,11 +413,6 @@ p.web-dev{
     cursor: default;
     transition-property: border;
     transition-duration: 1.5s;
-}
-
-.institutes:hover {
-    border: 3px solid #d088b8;
-    background-color: #1d56650d;
 }
 
 .college-results{
