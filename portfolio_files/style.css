@@ -272,8 +272,6 @@ p.web-dev{
   padding: 10px 15px;
   color: #b5c7d9;
   cursor: default;
-  transition-property: border;
-  transition-duration: 1.8s;
 }
 
 .profile-mobileFirst{
@@ -307,8 +305,13 @@ p.web-dev{
     text-align: left;
     cursor: default;
     margin-bottom: 10px;
-    transition-property: border;
-    transition-duration: 1.4s;
+    transition-property: padding;
+    transition-duration: .7s;
+
+}
+
+.projects:hover{
+    padding: 14px;
 
 }
 
@@ -411,8 +414,6 @@ p.web-dev{
     margin: 8px;
     text-align: center;
     cursor: default;
-    transition-property: border;
-    transition-duration: 1.5s;
 }
 
 .college-results{
