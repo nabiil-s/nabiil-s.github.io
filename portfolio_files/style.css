@@ -327,6 +327,7 @@ p.web-dev{
   width:270px;
   margin-right: 12px;
   border: 3.7px solid #81892d;
+  filter: brightness(87%);
 }
 
 .project-info-1200w, .project-info-730w{
