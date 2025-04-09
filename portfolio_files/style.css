@@ -9,20 +9,6 @@ body{
   background-color: #eae7e7;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-template-areas: 
-    "nav"
-    "main"
-    "intro"
-    "portfolio"
-    "skills"
-    "education"
-    "footer";
-}
-
 .sub-headings{
   margin-top:20px;
   font-size: 1.3rem;
@@ -73,7 +59,6 @@ nav {
   background: #0e3552;
   width: 100%;
   height:35px;
-  grid-area: nav;
   font-size: 1.2rem;
   z-index: 10;
 } 
@@ -109,12 +94,11 @@ a:active {
 
 main {
   display:flex;
-  grid-area: main;
   height:100%;
   padding-top: 13%;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, #0e3552, #0c1d36, #070720, #06051e);
+  background-image: linear-gradient(to bottom, #0e3552, #0e274d, #0c1334, #06051e);
   padding-bottom: 5%;
   cursor: default;
 }
@@ -259,7 +243,6 @@ p.web-dev{
   justify-content: center;
   align-items: center;
   padding: 50px 100px 70px 100px;
-  grid-area: intro;
   letter-spacing: 2.5px;
   font-size: 1.1rem;
   border-top: 5px solid #7b59b1;
@@ -281,7 +264,6 @@ p.web-dev{
 /* --------------------------------- Portfolio --------------------------------- */
 
 #portfolio {
-  grid-area: portfolio;
   padding: 20px 30px 60px;
 
 } 
@@ -339,7 +321,6 @@ p.web-dev{
 /* ----------------------------------- Skills ----------------------------------- */
 
 #skills {
-  grid-area: skills;
   padding: 40px 140px 30px;
 } 
 
@@ -382,7 +363,6 @@ p.web-dev{
 /* --------------------------------- Education ----------------------------------- */
 
 #education {
-  grid-area: education;
   padding: 60px 30px 50px;
 
 } 
@@ -417,7 +397,6 @@ p.web-dev{
 /* ----------------------------------- Footer ------------------------------------ */
 
 footer {
-  grid-area: footer;
   display: flex;
   height:60px;
   background-color: #04112d;
