@@ -9,6 +9,12 @@ body{
   background-color: #eae7e7;
 }
 
+.container{
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+}
+
 .sub-headings{
   margin-top:20px;
   font-size: 1.3rem;
