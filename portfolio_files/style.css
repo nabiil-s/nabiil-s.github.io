@@ -359,10 +359,11 @@ p.web-dev{
   color: #e692d2;
 }
 
-.items:hover {
+@media(hover:hover){
+  .items:hover {
     border: 2.2px outset #7e51f0;
     color: #85d98c;
-    background-color: #ffffff0f;
+  }
 }
 
 
