@@ -504,7 +504,7 @@ footer {
     opacity: 1;
   }
 
-  .mobile-first, .btn-style, .fs-btn{
+  .mobile-first, .fs-btn{
     display: initial;
   }
 
@@ -514,10 +514,6 @@ footer {
 
   .name{
     font-size: 3.5rem;
-  }
-
-  .fs-btn{
-    display: initial;
   }
 
   .btn{
@@ -626,7 +622,7 @@ footer {
   }
 
   a.btn-style {
-    font-size: 1.25rem;
+    font-size: 1.07rem;
   }
 }
 
