@@ -195,7 +195,7 @@ p.web-dev{
   text-align: center;
 }
 
-.btn-style, .btn-style-mobile{
+.btn-style{
   color: #d87dcf;
   padding: 12px 36px;
   margin: 10px 0;
@@ -203,7 +203,7 @@ p.web-dev{
   border-radius:10px;
 }
 
-.btn-style-mobile{
+.fs-btn{
   display: none;
 }
 
@@ -504,16 +504,20 @@ footer {
     opacity: 1;
   }
 
-  .mobile-first, .btn-style-mobile{
+  .mobile-first, .btn-style, .fs-btn{
     display: initial;
   }
 
-  .h1-fullScreen, .job-fullScreen, .btn-style{
+  .h1-fullScreen, .job-fullScreen, .mobile-btn{
     display: none;
   }
 
   .name{
     font-size: 3.5rem;
+  }
+
+  .fs-btn{
+    display: initial;
   }
 
   .btn{
@@ -632,7 +636,7 @@ footer {
     display:none;
   }
 
-  .btn-style-mobile{
+  .btn-style{
     padding: 10px 20px;
     border: 2px solid #e3e2b9bd;
     border-radius:5px;
