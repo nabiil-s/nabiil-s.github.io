@@ -109,6 +109,12 @@ main {
   cursor: default;
 }
 
+#intro-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .name{
   color:#93bebc;
 }
@@ -451,6 +457,7 @@ footer {
   .jobs{
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   .remove-job-info, .project-img {
@@ -481,6 +488,10 @@ footer {
     padding: 5px;
     background-color: #163f881a;
     margin: 20px 0px;
+  }
+
+  .btn{
+    margin-top: 60px;
   }
 
 @media (max-width: 1000px){
@@ -601,16 +612,24 @@ footer {
     padding-top: 27%;
   }
 
+  .jobs{
+    gap:15px;
+  }
+
   .job-title{
-    font-size: 1.53rem;
+    font-size: 1.4rem;
   }
 
   .title{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+  }
+
+  .nameIntials{
+
   }
 
   .name{
-    font-size: 3.1rem;
+    font-size: 2.8rem;
   }
 
   h1.intro{
@@ -625,7 +644,7 @@ footer {
   }
 
   a.btn-style {
-    font-size: 1.07rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -635,11 +654,22 @@ footer {
     display:none;
   }
 
+   .nameIntials, .name{
+    font-size: 2.4rem;
+  }
+
+  .aspiring-role{
+    font-size:17px;
+  }
+
   .btn-style{
     padding: 10px 20px;
     border: 2px solid #e3e2b9bd;
     border-radius:5px;
-    font-size: 16px;
+  }
+
+  a.btn-style {
+    font-size: 1rem;
   }
 
 }
