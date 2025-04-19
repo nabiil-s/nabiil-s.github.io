@@ -109,8 +109,8 @@ main {
   cursor: default;
 }
 
-.mobile-first{
-  display: none;
+.name{
+  color:#93bebc;
 }
 
 h1, .job-title{
@@ -137,7 +137,7 @@ h1, .job-title{
   100% {left: 0px;}
 }
 
-h1.h1-fullScreen{
+h1.intro{
   font-size: 3.15rem;
   position: relative;
   animation: mainIntro;
@@ -148,10 +148,6 @@ h1.h1-fullScreen{
 @keyframes mainIntro{
   0% {top: -500px;}
   100% {top: 0px;}
-}
-
-.name{
-  color: #93bebc;
 }
 
 .title{
@@ -496,24 +492,25 @@ footer {
 
               /* ----- Banner/Main ----- */
 
-  nav ul, .mobile-first{
-    animation: none;
-  }
-
-  nav ul{
-    opacity: 1;
-  }
-
-  .mobile-first, .fs-btn{
+  .fs-btn{
     display: initial;
   }
 
-  .h1-fullScreen, .job-fullScreen, .mobile-btn{
+  .job-fullScreen, .mobile-btn{
+    display: none;
+  }
+
+  .intro-fs{
     display: none;
   }
 
   .name{
-    font-size: 3.5rem;
+    color: #cdc6f2;
+    font-size: 3rem;
+  }
+
+  .nameIntials{
+   color: #93bebc;
   }
 
   .btn{
@@ -610,7 +607,7 @@ footer {
     font-size: 3.1rem;
   }
 
-  h1.mobile-first{
+  h1.intro{
     font-size: 2.7rem; 
   }
 
