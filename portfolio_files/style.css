@@ -118,9 +118,15 @@ h1, .job-title{
 
 }
 
- h1 {
+h1 {
   font-size: 3rem;
   color: #cdc6f2;
+}
+
+.jobs{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
 
 .job-title{
@@ -431,6 +437,11 @@ footer {
 /* -------------------------------------------------------------------------------- */
 
 @media (max-width: 1200px){
+
+  .shorten-fullJob{
+    display: none;
+  }
+
 
   .project-img{
     width:250px;
