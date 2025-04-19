@@ -454,12 +454,23 @@ footer {
 
 @media (max-width: 1107px){
 
+  h1.intro{
+    font-size: 2.9rem;
+  }
+
   .jobs{
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
 
+  .job-title{
+    font-size: 1.7rem;
+  }
+
+  .title{
+    font-size: 1.8rem;
+  }
   .remove-job-info, .project-img {
     display: none;
   }
@@ -483,7 +494,7 @@ footer {
   .aspiring-role{
     color: #daa7db;
     padding-top: 75px;
-    font-size: 21px;
+    font-size: 19.5px;
     letter-spacing: 7px;
     padding: 5px;
     background-color: #163f881a;
@@ -492,6 +503,7 @@ footer {
 
   .btn{
     margin-top: 60px;
+    font-size: 19px; 
   }
 
 @media (max-width: 1000px){
