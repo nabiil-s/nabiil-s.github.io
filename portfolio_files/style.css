@@ -624,11 +624,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  .nameIntials{
-
-  }
-
-  .name{
+  .nameIntials, .name{
     font-size: 2.8rem;
   }
 
