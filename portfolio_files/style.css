@@ -49,7 +49,7 @@ nav ul, .btn-style{
   background-color: #05051e;
 }
 
-.sub-headings, .project-title, .project-tech-used{
+.sub-headings, .project-title, .project-tech-used, .collegeName{
   font-weight: 400;
 }
 
@@ -384,6 +384,7 @@ h1.intro{
 } 
 
 .collegeName{
+  font-family: 'Barlow', sans-serif;
   font-size: 1.2rem;
   color: #9bc1c1;
   letter-spacing: 1.3px;
@@ -405,6 +406,10 @@ h1.intro{
     margin: 8px;
     text-align: center;
     cursor: default;
+}
+
+.institutes p{
+  font-weight: 300;
 }
 
 .college-results{
@@ -719,6 +724,16 @@ footer {
 
   a.btn-style {
     font-size: 1rem;
+  }
+
+  .collegeName{
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+  }
+
+  .institutes p{
+    font-size: 1.15rem;
+    font-weight: 100;
   }
 
 }
