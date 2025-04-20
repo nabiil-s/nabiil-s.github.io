@@ -351,8 +351,9 @@ h1.intro{
 
 @media(hover:hover){
   .items:hover {
-    border: 2.2px outset #7e51f0;
-    color: #85d98c;
+    border: 2.2px outset #279438;
+    background-color: black;
+    color: #c3be96;
   }
 }
 
