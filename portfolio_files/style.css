@@ -20,7 +20,7 @@ body{
   font-size: 1.3rem;
   font-weight: normal;
   text-transform: uppercase;
-  color: #b7eaf5;
+  color: #97c3cc;
   cursor:default;
 }
 
@@ -332,8 +332,8 @@ h1.intro{
 }
 
 .items{
-    color:#56f0f3;;
-    border: 2.2px solid #9ca96f;
+    color:#8ea0c2;
+    border: 2.2px solid #7c816e;
     width: 100px;
     padding: 10px;
     text-align: center;
@@ -345,8 +345,8 @@ h1.intro{
 }
 
 .items:nth-child(2n){
-  border: 2.2px solid #5f94ef;
-  color: #e692d2;
+  border: 2.2px solid #5074a0;
+  color: #78a5af;
 }
 
 @media(hover:hover){
