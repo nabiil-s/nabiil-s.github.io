@@ -624,6 +624,12 @@ footer {
   }
 }
 
+@media (max-width:650px){
+  #intro-container{
+    margin-top: 11%;
+  }
+}
+
 @media (max-width:510px){
   main{
     padding-top: 27%;
