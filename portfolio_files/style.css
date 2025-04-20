@@ -324,6 +324,7 @@ h1.intro{
 
 .project-txt li{
   font-family: 'Barlow', sans-serif;
+  list-style-type: disclosure-closed;
 }
 
 .project-info-1200w, .project-info-730w{
@@ -692,6 +693,10 @@ footer {
 
   .homeNav{
     display:none;
+  }
+
+  nav ul {
+    padding-top: 1.5%;
   }
 
   .nameIntials{
