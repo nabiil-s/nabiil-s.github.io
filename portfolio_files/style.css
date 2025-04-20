@@ -53,7 +53,7 @@ nav ul, .btn-style{
   font-weight: 400;
 }
 
-.profile, .collegeName{
+.profile{
   font-weight: 300;
 }
 
@@ -361,6 +361,12 @@ h1.intro{
   cursor: default;
   transition-property: border, color;
   transition-duration: 1.8s, 0.7s;
+}
+
+.items p{
+  font-family: "Inter", sans-serif;
+  font-weight:300;
+  font-size: 17px;
 }
 
 .items:nth-child(2n){
