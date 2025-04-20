@@ -200,9 +200,11 @@ h1.intro{
 }
 
 .btn-style:hover{
-  background-color: #aaafd6;
-  color: #100315;
-  border: 1.5px solid #565a99;
+  background-color: #0000000d;
+  color: #ac8ad0;
+  border: 1.5px outset;
+  transition-property: color;
+  transition-duration: 0.8s;
 }
 
 .fa-2x{
