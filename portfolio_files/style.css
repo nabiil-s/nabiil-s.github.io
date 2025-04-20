@@ -399,13 +399,13 @@ h1.intro{
 }
 
 .institutes{
-    border: 3px solid #5294ac;
-    width: 80%;
-    padding: 25px 20px;
-    border-radius: 2px;
-    margin: 8px;
-    text-align: center;
-    cursor: default;
+  border: 3px solid #5294ac;
+  width: 80%;
+  padding: 25px 20px;
+  border-radius: 2px;
+  margin: 8px;
+  text-align: center;
+  cursor: default;
 }
 
 .institutes p{
@@ -525,6 +525,11 @@ footer {
     padding: 5px;
     background-color: #163f881a;
     margin: 20px 0px;
+    animation: links;
+    opacity: 0;
+    animation-duration: 3s;
+    animation-delay: 2.7s;
+    animation-fill-mode: forwards;
   }
 
   .btn{
