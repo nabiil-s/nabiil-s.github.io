@@ -24,11 +24,6 @@ body{
   cursor:default;
 }
 
-h4{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.14rem;
-}
-
 p{
   font-family: 'Barlow', sans-serif;
   font-size: 1.1rem;
@@ -382,6 +377,7 @@ h1.intro{
 } 
 
 .collegeName{
+  font-size: 1.2rem;
   color: #9bc1c1;
   letter-spacing: 1.3px;
 }
