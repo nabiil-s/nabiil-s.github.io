@@ -332,8 +332,8 @@ h1.intro{
 }
 
 .items{
-    color:#8ea0c2;
-    border: 2.2px solid #7c816e;
+    color:#adbbd5;
+    border: 2.2px solid #7f8275;
     width: 100px;
     padding: 10px;
     text-align: center;
@@ -346,7 +346,7 @@ h1.intro{
 
 .items:nth-child(2n){
   border: 2.2px solid #5074a0;
-  color: #78a5af;
+  color: #92c2cd;
 }
 
 @media(hover:hover){
