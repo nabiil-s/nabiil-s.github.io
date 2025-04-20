@@ -437,9 +437,18 @@ footer {
   cursor: default;
 }
 
+footer p, .portfolioLink-footer{
+  font-family: 'Inter', sans-serif;  
+}
+
+footer p{
+  font-weight: 200;
+}
+
 .portfolioLink-footer{
   color: #6ce3cb;
   text-decoration: underline;
+  font-weight: 300;
 }
 
 .portfolioLink-footer:hover{
