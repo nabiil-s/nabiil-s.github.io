@@ -55,6 +55,14 @@ nav ul, .btn-style{
   background-color: #05051e;
 }
 
+.project-title, .project-tech-used, li {
+  font-family: 'Barlow', sans-serif;
+}
+
+.project-title, .project-tech-used{
+  font-weight: 400;
+}
+
 .projects, .institutes{
   color: #b4c7d9;
 }
@@ -251,6 +259,7 @@ h1.intro{
   padding: 10px 15px;
   color: #b5c7d9;
   cursor: default;
+  letter-spacing: 2.5px;
 }
 
 .profile-mobileFirst{
@@ -273,7 +282,7 @@ h1.intro{
 }
 
 .projects{
-    border:3px solid #17694f;
+    border:2px solid #17694f;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -286,6 +295,8 @@ h1.intro{
 }
 
 .project-title{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
   padding-bottom: 7px;
   padding-right: 7px;
   color: #bfcba8f7;
@@ -574,6 +585,9 @@ footer {
     margin-left:13px;
     padding: 5px 0px 10px;
     font-size: 1.15rem;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    list-style-type: disclosure-closed;
   }
 
   .project-tech-used {
