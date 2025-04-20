@@ -673,7 +673,11 @@ footer {
     display:none;
   }
 
-  .nameIntials, .name{
+  .nameIntials{
+    font-size: 2.8rem;
+  }
+
+   .name{
     font-size: 2.4rem;
   }
 
