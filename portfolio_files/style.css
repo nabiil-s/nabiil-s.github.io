@@ -351,16 +351,16 @@ h1.intro{
 }
 
 .items{
-    color:#adbbd5;
-    border: 2.2px solid #7f8275;
-    width: 100px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    margin: 3px;
-    cursor: default;
-    transition-property: border, color;
-    transition-duration: 1.8s, 0.7s;
+  color:#adbbd5;
+  border: 2.2px solid #7f8275;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 3px;
+  cursor: default;
+  transition-property: border, color;
+  transition-duration: 1.8s, 0.7s;
 }
 
 .items:nth-child(2n){
