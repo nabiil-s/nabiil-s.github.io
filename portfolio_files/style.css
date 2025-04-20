@@ -16,24 +16,23 @@ body{
 }
 
 .sub-headings{
+  font-family: 'barlow', sans-serif;
   margin-top:20px;
   font-size: 1.3rem;
-  font-weight: normal;
   text-transform: uppercase;
   color: #a1d4de;
   cursor:default;
 }
 
-p, h4{
-  font-family: 'Roboto', sans-serif;
-}
-
 h4{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.14rem;
 }
 
 p{
+  font-family: 'Barlow', sans-serif;
   font-size: 1.1rem;
+  letter-spacing: 0.3px;
 }
 
 nav ul, .btn-style{
@@ -55,12 +54,12 @@ nav ul, .btn-style{
   background-color: #05051e;
 }
 
-.project-title, .project-tech-used, li {
-  font-family: 'Barlow', sans-serif;
+.sub-headings, .project-title, .project-tech-used{
+  font-weight: 400;
 }
 
-.project-title, .project-tech-used{
-  font-weight: 400;
+.profile, .collegeName{
+  font-weight: 300;
 }
 
 .projects, .institutes{
@@ -262,11 +261,16 @@ h1.intro{
   letter-spacing: 2.5px;
 }
 
+.Profile-mw, .profile-mobileFirst{
+  letter-spacing: 1.8px;
+  font-weight: 200;
+}
+
 .profile-mobileFirst{
   display: none;
 }
 
-/* --------------------------------- Portfolio --------------------------------- */
+/* --------------------------------- Projects --------------------------------- */
 
 #portfolio {
   padding: 20px 30px 60px;
@@ -295,8 +299,6 @@ h1.intro{
 }
 
 .project-title{
-  font-family: 'Barlow', sans-serif;
-  font-weight: 400;
   padding-bottom: 7px;
   padding-right: 7px;
   color: #bfcba8f7;
@@ -318,6 +320,10 @@ h1.intro{
   border: 3.7px solid #81892d;
   filter: brightness(87%);
 }
+
+ .project-txt{
+    font-weight: 100;
+  }
 
 .project-info-1200w, .project-info-730w{
   display:none;
@@ -362,9 +368,8 @@ h1.intro{
 
 @media(hover:hover){
   .items:hover {
-    border: 2.2px outset #279438;
     background-color: black;
-    color: #c3be96;
+    color: #d989d8;
   }
 }
 
@@ -378,6 +383,7 @@ h1.intro{
 
 .collegeName{
   color: #9bc1c1;
+  letter-spacing: 1.3px;
 }
 
 .education-card{
@@ -502,7 +508,7 @@ footer {
     text-align: center;
     margin-top: 7px;
   }
-
+  
   .aspiring-role{
     color: #daa7db;
     padding-top: 75px;
