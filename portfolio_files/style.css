@@ -100,11 +100,11 @@ a:active {
 
 main {
   display:flex;
-  height:100%;
+  height:85vh;
   padding-top: 13%;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(to bottom, #0e3552, #0e274d, #0c1334, #06051e);
+  background-image: linear-gradient(to bottom, #0e3552, #0c2449, #080d27, #06051e);
   padding-bottom: 5%;
   cursor: default;
 }
@@ -205,7 +205,7 @@ h1.intro{
 
 .fa-2x{
   border:2px solid #6c6c6c;
-  margin-top:170px;
+  margin-top:280px;
   border-radius: 50%;
   padding: 7px;
 }
@@ -431,7 +431,6 @@ footer {
     display: none;
   }
 
-
   .project-img{
     width:250px;
   }
@@ -447,6 +446,10 @@ footer {
 }
 
 @media (max-width: 1107px){
+
+  #intro-container{
+    margin-top: 3%;
+  }
 
   h1.intro{
     font-size: 2.9rem;
@@ -467,6 +470,10 @@ footer {
   }
   .remove-job-info, .project-img {
     display: none;
+  }
+
+  .fa-2x{
+    margin-top: 200px;
   }
 
   .projects{
@@ -514,6 +521,10 @@ footer {
 @media (max-width: 930px){
 
               /* ----- Banner/Main ----- */
+
+  #intro-container{
+    margin-top: 6%;
+  }
 
   .fs-btn{
     display: initial;
@@ -656,7 +667,7 @@ footer {
     display:none;
   }
 
-   .nameIntials, .name{
+  .nameIntials, .name{
     font-size: 2.4rem;
   }
 
