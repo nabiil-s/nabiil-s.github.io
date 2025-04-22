@@ -202,7 +202,7 @@ h1.intro{
 .btn-style:hover{
   background-color: #0000000d;
   color: #ac8ad0;
-  border: 1.5px outset;
+  border: 1.5px outset #b7b7b7;
   transition-property: color;
   transition-duration: 0.8s;
 }
