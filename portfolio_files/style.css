@@ -486,6 +486,13 @@ footer p{
 }
 
 @media (max-width: 1107px){
+  nav ul, .btn-style, .job-title, h1.intro{
+    animation: none;
+  }
+
+  nav ul, .btn-style{
+    opacity: 1;
+  }
 
   #intro-container{
     margin-top: 3%;
