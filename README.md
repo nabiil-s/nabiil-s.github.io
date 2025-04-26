@@ -1,7 +1,8 @@
 # Front-End Deployment Showcase
 
-[![pages-build-deployment](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/pages/pages-build-deployment)
+[![CI/CD - Check deployment status](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/pages/pages-build-deployment)
 
+[![CI/CD - Formatting & Linting](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/nabiil-s/nabiil-s.github.io/actions/workflows/ci.yml)
 Welcome to my Front-End Deployment Showcase! 🎨
 
 This repository highlights my abilities in deploying front-end applications and managing code using version control with Git. Below, you'll find examples of my work and insights into my development process.
