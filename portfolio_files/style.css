@@ -464,12 +464,12 @@ footer {
   cursor: default;
 }
 
-footer p,
+.footer-text,
 .portfolio-link-footer {
   font-family: Inter, sans-serif;
 }
 
-footer p {
+.footer-text {
   font-weight: 200;
 }
 
@@ -662,7 +662,7 @@ footer p {
     padding-bottom: 15px;
   }
 
-  .mainfooter {
+  .main-footer {
     display: none;
   }
 

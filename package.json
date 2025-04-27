@@ -13,6 +13,7 @@
     "eslint-plugin-prettier": "^5.2.6",
     "globals": "^16.0.0",
     "htmlhint": "^1.1.4",
+    "postcss-lit": "^1.2.0",
     "prettier": "^3.5.3",
     "stylelint": "^16.19.1",
     "stylelint-config-standard": "^38.0.0",
