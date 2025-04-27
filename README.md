@@ -25,6 +25,10 @@ This repository highlights my abilities in deploying front-end applications and 
 - Setting Up and Configuring Deployment Environments
 - Monitoring and Troubleshooting Deployed Applications
 
+## Project Workflow
+
+For a visual representation of the development and deployment workflow, view the [Mermaid Flowchart](mermaid.md).
+
 ## 📚 How to Use This Repository
 
 1. **Explore the Projects:** Browse through the deployed project to see my front-end work. For a full user experience and demo of my created projects, please visit: [nabiil-s@infinityfreeapp.com](http://nabiil-s.infinityfreeapp.com).
