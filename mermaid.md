@@ -10,7 +10,7 @@ flowchart TB
     C --> E[Preview]
     D --> E[Preview]
     E --> F[Format with Prettier]
-    F --> G[Lint]
+    F --> G[Lint with Bash Scripting]
     G --> H[HTML]
     G --> I[CSS]
     G --> J[JavaScript]
