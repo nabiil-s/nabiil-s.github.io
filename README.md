@@ -4,38 +4,32 @@
 
 Welcome to my Front-End Deployment Showcase! 🎨
 
-This repository highlights my abilities in deploying front-end applications and managing code using version control with Git. Below, you'll find examples of my work and insights into my development process.
+This repository showcases my skills in deploying front-end applications, managing version control with Git, automating workflows with CI/CD, and ensuring code quality through formatting and linting. Below, you'll find examples of my work and a detailed look at my development process.
 
 ## 🚀 What You'll Find Here
 
 - **Deployed Projects:** A live front-end portfolio demonstrating my skills in building and deploying user-friendly websites and applications using GitHub Pages.
   
-- **Version Control Practices:** Examples of my approach to using Git for version control, including conflict resolution, branch management, and maintaining a clean commit history.
+- **Version Control Practices:** Examples of my approach to using Git for version control, including conflict resolution, reverting commits, and reviewing code.
 
-## 🔧 Skills Demonstrated
+- **Formatting & Linting:** Installing and configuring Prettier & Lint for HTML, CSS, and JavaScript. Running them via Bash scripting to ensure clean and consistent code formatting.
 
-### Version Control:
+- **Configuring CI/CD Pipelines:** My project implements continuous integration and continuous deployment (CI/CD) using GitHub Actions, automating tasks through scripted workflows.
 
-- Branch Creation and Management
-- Conflict Resolution
-- Commit History and Code Reviews
+- **Documentation:** A documented overview of my workflow through README.md, mermaid.md, and portfolio project walkthroughs.
 
-### Deployment:
 
-- Setting Up and Configuring Deployment Environments
-- Monitoring and Troubleshooting Deployed Applications
+## 📚 How to Use This Repository
+
+1. **Review Version Control Practices:** Check out the commit history to understand how I manage version control and handle conflicts.
+
+2. **View Repository's Pipeline:** Explore the CI/CD pipeline that handles deployment. You can find the configuration in the [GitHub Actions tab](https://github.com/nabiil-s/nabiil-s.github.io/actions).
+
+3. **Deploy Your Own Version:** Clone this repository and use the deployment scripts to set up and deploy your own front-end projects. It’s a great way to get hands-on with GitHub Pages and CI/CD!
 
 ## Project Workflow
 
 For a visual representation of the development and deployment workflow, view the [Mermaid Flowchart](mermaid.md).
-
-## 📚 How to Use This Repository
-
-1. **Explore the Projects:** Browse through the deployed project to see my front-end work. For a full user experience and demo of my created projects, please visit: [nabiil-s@infinityfreeapp.com](http://nabiil-s.infinityfreeapp.com).
-
-2. **Review Version Control Practices:** Check out the commit history and branch structure to understand how I manage version control and handle conflicts.
-
-3. **Deploy Your Own Projects:** Use the deployment scripts and configurations as a reference for setting up and deploying your own projects.
 
 ---
 

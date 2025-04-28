@@ -454,6 +454,8 @@ h1.intro {
 
 footer {
   display: flex;
+  font-family: Inter, sans-serif;
+  font-weight: 200;
   height: 60px;
   background-color: #04112d;
   color: #eaf3e8;
@@ -462,30 +464,6 @@ footer {
   text-align: center;
   border-top: 3px solid #639bae;
   cursor: default;
-}
-
-.footer-text,
-.portfolio-link-footer {
-  font-family: Inter, sans-serif;
-}
-
-.footer-text {
-  font-weight: 200;
-}
-
-.portfolio-link-footer {
-  color: #6ce3cb;
-  text-decoration: underline;
-  font-weight: 300;
-}
-
-.portfolio-link-footer:hover {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-.mobile-first-footer {
-  display: none;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -660,14 +638,6 @@ footer {
 @media (width <= 900px) {
   .project-tech-used {
     padding-bottom: 15px;
-  }
-
-  .main-footer {
-    display: none;
-  }
-
-  .mobile-first-footer {
-    display: initial;
   }
 }
 
