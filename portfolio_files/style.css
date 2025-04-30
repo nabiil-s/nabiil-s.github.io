@@ -295,7 +295,7 @@ h1.intro {
   font-weight: 200;
 }
 
-.profile-mobile-first{
+.profile-mobile-first {
   display: none;
   color: #b1c3d5;
 }
@@ -566,7 +566,6 @@ footer {
   }
 }
 
-
 @media (width <= 930px) {
   /* ----- Banner/Main ----- */
 
@@ -710,11 +709,11 @@ footer {
     font-weight: 300;
   }
 
-  .profile-ul{
+  .profile-ul {
     padding-top: 10px;
   }
 
-  .profile-list{
+  .profile-list {
     list-style-type: square;
     font-family: Barlow, sans-serif;
     font-weight: 100;
