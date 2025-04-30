@@ -295,8 +295,9 @@ h1.intro {
   font-weight: 200;
 }
 
-.profile-mobile-first {
+.profile-mobile-first{
   display: none;
+  color: #b1c3d5;
 }
 
 /* --------------------------------- Projects --------------------------------- */
@@ -565,15 +566,6 @@ footer {
   }
 }
 
-@media (width <= 1000px) {
-  .profile-mw {
-    display: none;
-  }
-
-  .profile-mobile-first {
-    display: initial;
-  }
-}
 
 @media (width <= 930px) {
   /* ----- Banner/Main ----- */
@@ -706,6 +698,26 @@ footer {
 
   a.btn-style {
     font-size: 1.05rem;
+  }
+
+  .profile-mw {
+    display: none;
+  }
+
+  .profile-mobile-first {
+    display: initial;
+    text-align: left;
+    font-weight: 300;
+  }
+
+  .profile-ul{
+    padding-top: 10px;
+  }
+
+  .profile-list{
+    list-style-type: square;
+    font-family: Barlow, sans-serif;
+    font-weight: 100;
   }
 }
 
