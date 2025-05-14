@@ -9,14 +9,14 @@ body {
   background-color: #eae7e7;
 }
 
-..container {
+.container {
   display: flex;
   text-align: center;
   flex-direction: column;
 }
 
 .sub-headings {
-  font-family: barlow, sans-serif
+  font-family: barlow, sans-serif;
   margin-top: 20px;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ body {
   cursor: default;
 }
 
-p 
+p {
   font-family: Barlow, sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.3px;
