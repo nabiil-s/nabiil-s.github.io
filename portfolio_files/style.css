@@ -325,11 +325,11 @@ h1.intro {
   margin-bottom: 10px;
 }
 
-.main-project{
-  border: 2px solid #1d627f
+.main-project {
+  border: 2px solid #1d627f;
 }
 
-.project-title.main-project-title{
+.project-title.main-project-title {
   color: #58dbdc;
 }
 
@@ -758,7 +758,6 @@ footer {
     font-size: 1rem;
   }
 
-  }
   .college-name {
     font-size: 1.15rem;
     letter-spacing: 1px;
