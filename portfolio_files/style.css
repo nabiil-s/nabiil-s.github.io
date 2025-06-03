@@ -750,7 +750,8 @@ footer {
 
   .btn-style {
     padding: 10px 20px;
-    border: 2px solid #e3e2b9bd;
+    border: 1.5px outset #b7b7b7;
+    color: #ac8ad0;
     border-radius: 5px;
   }
 
