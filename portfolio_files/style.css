@@ -459,10 +459,13 @@ h1.intro {
 }
 
 /* ------------------------------ Navigate: To Main ----------------------------- */
+#button-nav{ 
+  background: #05051f;
+  padding-bottom: 23px;
+}
 
 .fa-angle-up{
   font-size: 25px;
-  margin-top: 40px;
   padding: 10px;
   border: 1.2px solid #5294ac;
   border-radius: 50%;
